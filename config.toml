@@ -1,3 +1,59 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "ArtCode"
+theme = "er"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+pygmentsStyle="tango"
+
+
+#staticman:
+    #api: https://api.staticman.net/v2/entry/<USERNAME>/<REPOSITORY-BLOGNAME>/master/comments
+    #pulls: https://github.com/<USERNAME>/<REPOSITORY-BLOGNAME>/pulls
+    #recaptcha:
+    #    sitekey: "6LeGeTgUAAAAAAqVrfTwox1kJQFdWl-mLzKasV0v"
+    #    secret: "hsGjWtWHR4HK4pT7cUsWTArJdZDxxE2pkdg/ArwCguqYQrhuubjj3RS9C5qa8xu4cx/Y9EwHwAMEeXPCZbLR9eW1K9L
+
+[params]
+    favicon = "images/logo.jpg"
+    description = "Nice site."
+
+    # Structure / Tools:
+    #math = true  # load katex
+    #showtoc = false  # show table of content
+    showTagCloud = false  # show tag cloud
+
+    # Social:
+    facebook = ""
+    twitter = ""
+    instagram = ""
+    youtube = ""
+    github = "https://github.com/gjeusel"
+    linkedin = "https://www.linkedin.com/in/guillaume-jeusel/"
+
+    # Style:
+    coverImageHome = "img/samurai_champloo.jpg"
+    #customcss = ["css/custom.css",]
+    #customjs = ["js/custom.js", ]
+
+
+[[menu.main]]
+  name = "Cheatsheets"
+  url = "cheatsheets/"
+  weight = 10
+
+[[menu.main]]
+  name = "Posts"
+  url = "posts/"
+  weight = 20
+
+[[menu.main]]
+  name = "About"
+  url = "about/"
+  weight = 30
