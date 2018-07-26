@@ -172,6 +172,9 @@ ul.icons li > * .label {
 #navbar {
   font-family: "Source Sans Pro";
 }
+#navbar a {
+  color: var(--body-text-color);
+}
 #navbar:hover {
   color: var(--logo-text-color);
 }
