@@ -1,17 +1,20 @@
-<nav class="flex justify-between border-box pa3 pl3 pr2 mt1 bg-black-60" id="navbar">
+<nav class="row nt3 pt3 justify-between center" id="navbar">
 
-    <div class="fa fa-home pt1 fa-lg white-90">
-        <a href="{{ .Site.BaseURL }}" class="f3 fw2 hover-white no-underline white-90">Home</a>
-    </div>
+  <!--flex flex-column items-center nl6 nr6 bg-gray8 relative center-v-l-->
+  <div class="dib pl3">
+      <a class="dib br fa fa-home fa-2x no-underline grow" href="{{ .Site.BaseURL }}">
+        <h1 class="dib f3 pl1 pr4 b">Home</h1>
+      </a>
+  </div>
 
-    <div class="pv1">
-      {{ range .Site.Menus.main }}
-        <a class="link dim white-90 f5 fw4 mr2 mr3-l ttu tracked" href='{{.URL}}' title="{{ .Name }}">
-            {{ .Name }}
-        </a>
-      {{ end }}
-        <ul class="icons">
-          {{ partial "social" . }}
-        </ul>
-    </div>
+    {{ range .Site.Menus.main }}
+    <a class="ml4 grow no-underline f3 tj" href='{{.URL}}'>
+      {{ .Name }}
+    </a>
+    {{ end }}
+
+    <ul class="pr4 fr f4 icons">
+      {{ partial "social.html" . }}
+    </ul>
+
 </nav>
