@@ -1,7 +1,13 @@
 {{ define "main" }}
 <main class="center mv4 content-width ph3">
+<div class="fixed mr4 mt3 right-2">
+  {{ partial "tag_cloud" . }}
+</div>
+
+<div class="dib">
   <h1 class="f2 fw6 tc pb3 heading-font">{{ .Title }}</h1>
-  <ul class="list-pages">
+  {{ .Content }}
+  <ul class="pt4 list-pages">
     {{ range .Data.Pages }}
       <li class="bt b--light-silver bw1 lh-copy list">
         <a class="pt3 link" href="{{ .Permalink | relURL }}">
@@ -10,6 +16,8 @@
       </li>
     {{ end }}
   </ul>
+</div>
+
 </main>
 <div class="pagination tc db fixed-l bottom-2-l right-2-l mb3 mb0-l">
 {{ partial "back-to-top.html" . }}

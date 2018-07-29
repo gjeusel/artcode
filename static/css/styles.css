@@ -117,42 +117,26 @@ table tr th[align="center"], table tr td[align="center"] {
   text-align:center;
 }
 
-/* Icon */
-.icon {
-  text-decoration: none;
-  border-bottom: none;
-  position: relative;
-}
-.icon:before {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-transform: none !important;
-}
-.icon > .label {
-  display: none;
-}
-.icon.suffix:before {
-  float: right;
-}
-
 /* Icons */
 ul.icons li {
   display: inline;
   padding: 0 1em 0 0;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
 }
 ul.icons li:last-child {
   padding-right: 0;
+}
+ul.icons li > *:hover {
+  transform:scale(1.20)
 }
 ul.icons li > * {
   text-decoration: none;
   border: 0;
 }
 ul.icons li > *:before {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;

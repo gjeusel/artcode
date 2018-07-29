@@ -27,7 +27,7 @@ pygmentsStyle="tango"
     # Structure / Tools:
     #math = true  # load katex
     #showtoc = false  # show table of content
-    showTagCloud = false  # show tag cloud
+    showTagCloud = true  # show tag cloud
 
     # Social:
     facebook = ""

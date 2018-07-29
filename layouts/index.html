@@ -1,9 +1,9 @@
 {{ define "main" }}
 {{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.mainSections) }}
 
-<main class="cover bg-center" id="main" style="background-image: url('{{ $.Site.Params.coverImageHome }}');">
-  <div class="pb5 bg-black-60">
-    <div class="tc pv6 ph3">
+<main class="" id="main" >
+  <div class="bcover bg-center" style="background-image: url('{{ $.Site.Params.coverImageHome }}');">
+    <div class="tc pv6 ph3 bg-black-60">
       <h1 class="f1 fw2 white-90 lh-title">{{ .Title | default .Site.Title }}</h1>
       {{ with .Site.Params.description  }}
         <h2 class="f3 fw1 white-80 measure-wide-l center lh-copy mt3 mb4">
@@ -12,27 +12,52 @@
       {{ end }}
     </div>
   </div>
-</main>
 
-<main class="center mv4 content-width ph3">
-  <ul class="list pa0">
-    {{ range $paginator.Pages }}
-    <li class="mb2">
-      <a class="f4 heading-color heading-font fw6 no-underline" href="{{ .Permalink }}">{{ .Title }}</a>
-      <p class="f5 mt1 silver">
-        <time>{{ .Date.Format "02 Jan 2006" }}</time>
-        {{ if or .Params.tags .Params.categories }} | {{ end }}
-        {{ if isset .Params "categories" }}
-        categories: [ {{ range .Params.categories }}<a href='{{ "/categories/" | relLangURL }}{{ . | urlize }}' class="link silver">{{ . }}</a> {{ end }} ]
+  <!-- Posts List -->
+  <section class="content-width center recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        {{ $.Scratch.Set "recentPosts" .Site.Pages }}
+
+        {{ with .Site.Params.postAmount.sidebar }}
+          {{ $.Scratch.Set "postLimit" . }}
+        {{ else }}
+          {{ $.Scratch.Set "postLimit" 5 }}
         {{ end }}
-        {{ if isset .Params "tags" }}
-        tags: [ {{ range .Params.tags }}<a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}' class="link silver">{{ . }}</a> {{ end }} ]
+
+        {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "post") }}
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h3>
+              {{ $.Scratch.Set "dateType" .Date }}
+              <time class="published" datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
+                {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
+              </time>
+            </header>
+            {{ .Render "featured" }}
+          </article>
         {{ end }}
-      </p>
-    </li>
-    {{ end }}
-  </ul>
+      </div>
+
+      {{ if ge (len (where .Site.Pages "Type" "post")) ($.Scratch.Get "postLimit") }}
+        <a href=
+          {{ with .Site.Params.viewMorePostLink }}
+            {{ . }}
+          {{ else }}
+            "/post/"
+          {{ end }}
+        class="button">View more posts</a>
+      {{ end }}
+    </div>
+  </section>
+  <div class="fr mr4">
+    {{ partial "tag_cloud.html" . }}
+  </div>
 </main>
-{{ partial "tag_cloud.html" . }}
 {{ partial "pagination.html" . }}
 {{ end }}
