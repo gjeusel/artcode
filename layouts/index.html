@@ -1,8 +1,7 @@
 {{ define "main" }}
 {{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.mainSections) }}
 
-{{ partial "nav.html" . }}
-<main class="cover bg-top" id="main" style="background-image: url('{{ $.Site.Params.coverImageHome }}');">
+<main class="cover bg-center" id="main" style="background-image: url('{{ $.Site.Params.coverImageHome }}');">
   <div class="pb5 bg-black-60">
     <div class="tc pv6 ph3">
       <h1 class="f1 fw2 white-90 lh-title">{{ .Title | default .Site.Title }}</h1>

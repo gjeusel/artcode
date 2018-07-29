@@ -1,11 +1,13 @@
 {{ define "main" }}
-{{ partial "nav.html" . }}
 <main class="center mv4 content-width ph3">
-  <h1 class="f2 fw6 heading-font">{{ .Title }}</h1>
-  {{ .Content }}
+  <h1 class="f2 fw6 tc pb3 heading-font">{{ .Title }}</h1>
   <ul class="list-pages">
     {{ range .Data.Pages }}
-      <li class="lh-copy"><a href="{{ .Permalink | relURL }}" class="link f5">{{ .Title }}</a> - <time>{{ .Date.Format "02 Jan 2006" }}</time></li>
+      <li class="bt b--light-silver bw1 lh-copy list">
+        <a class="pt3 link" href="{{ .Permalink | relURL }}">
+          {{ partial "article-header" . }}
+        </a>
+      </li>
     {{ end }}
   </ul>
 </main>
