@@ -1,19 +1,17 @@
-<nav class="row nt3 pt3 justify-between center" id="navbar">
+<nav class="flex list ph4 justify-between" id="navbar">
 
   <!--flex flex-column items-center nl6 nr6 bg-gray8 relative center-v-l-->
-  <div class="dib pl3">
-      <a class="dib br fa fa-home fa-2x no-underline grow" href="{{ .Site.BaseURL }}">
-        <h1 class="dib f3 pl1 pr4 b">Home</h1>
-      </a>
-  </div>
+  <a class="dim f3 fa fa-home no-underline" href="{{ .Site.BaseURL }}">
+    Home
+  </a>
 
   {{ range .Site.Menus.main }}
-  <a class="ml4 grow no-underline f3 tj" href='{{.URL}}' title="{{.Title}}">
+  <a class="dim ml4 f3 no-underline" href="{{.URL}}" title="{{.Title}}">
     {{ .Name }}
   </a>
   {{ end }}
 
-  <ul class="pr4 fr f4 icons">
+  <ul class="ml-auto f3 icons">
     {{ partial "social.html" . }}
   </ul>
 

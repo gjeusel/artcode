@@ -139,12 +139,6 @@ table tr th[align="center"], table tr td[align="center"] {
 }
 
 /* Icons */
-ul.icons {
-  cursor: default;
-  list-style: none;
-  padding-left: 0;
-  margin-top: 1em;
-}
 ul.icons li {
   display: inline;
   padding: 0 1em 0 0;
@@ -171,12 +165,10 @@ ul.icons li > * .label {
 /*Nav Bar*/
 #navbar {
   font-family: "Source Sans Pro";
+  align-items: center;
 }
 #navbar a {
   color: var(--body-text-color);
-}
-#navbar:hover {
-  color: var(--logo-text-color);
 }
 #navbar a:visited {
   color: var(--body-text-color);
