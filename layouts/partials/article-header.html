@@ -1,0 +1,22 @@
+<div class="dib">
+  <!--Title-->
+  <div class="f3 fw6 heading-color heading-font post-title">{{ .Title }}</div>
+
+  <!--Puts the tags or categories-->
+  <p class="silver f6 mt3 mb4 post-meta">
+    {{ if not .Date.IsZero }}<time>{{ .Date.Format "02 Jan 2006" }}</time> {{ end }}
+    {{ if or .Params.tags .Params.categories .Params.series }} | {{ end }}
+    {{ if isset .Params "categories" }}
+    categories: [ {{ range .Params.categories }}<a href='{{ "/categories/" | relLangURL }}{{ . | urlize }}' class="link silver">{{ . }}</a> {{ end }} ]
+    {{ end }}
+    {{ if isset .Params "tags" }}
+    tags: [ {{ range .Params.tags }}<a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}' class="link silver">{{ . }}</a> {{ end }} ]
+    {{ end }}
+  </p>
+
+</div>
+<div class="fr">
+  {{ if .Params.logo }}
+  <img class="mw4" src="{{ .Params.logo }}" alt="logo">
+  {{ end }}
+</div>

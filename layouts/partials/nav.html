@@ -7,14 +7,14 @@
       </a>
   </div>
 
-    {{ range .Site.Menus.main }}
-    <a class="ml4 grow no-underline f3 tj" href='{{.URL}}'>
-      {{ .Name }}
-    </a>
-    {{ end }}
+  {{ range .Site.Menus.main }}
+  <a class="ml4 grow no-underline f3 tj" href='{{.URL}}' title="{{.Title}}">
+    {{ .Name }}
+  </a>
+  {{ end }}
 
-    <ul class="pr4 fr f4 icons">
-      {{ partial "social.html" . }}
-    </ul>
+  <ul class="pr4 fr f4 icons">
+    {{ partial "social.html" . }}
+  </ul>
 
 </nav>

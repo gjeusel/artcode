@@ -1,8 +1,10 @@
 +++
-title = "Motions"
+date = "2018-07-29"
+title = "Vim - Some Forgotten Basics"
 draft = true
 toc = true
-imageCheatsheet = "/img/default.png"
+logo = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Neovim-logo.svg/1280px-Neovim-logo.svg.png"
+tags = ["vim", "neovim", "basics", "motions",]
 +++
 -----
 
@@ -12,7 +14,7 @@ imageCheatsheet = "/img/default.png"
 ## Moving cursor on screen
 
 | action               | motion |
-|----------------------|--------|
+|:--------------------:|-------:|
 | top of the screen    | `H`    |
 | middle of the screen | `M`    |
 | bottom of the scrren | `L`    |
@@ -21,7 +23,7 @@ imageCheatsheet = "/img/default.png"
 ## Moving screen, not cursor
 
 | action                    | motion    |
-| ------------------------- | --------- |
+|:-------------------------:| ---------:|
 | to the middle             | `zz`      |
 | to the top                | `zt`      |
 | to the bottom             | `zb`      |
@@ -31,7 +33,7 @@ imageCheatsheet = "/img/default.png"
 ## Within a line
 
 | action             | motion |
-|--------------------|--------|
+|:------------------:|-------:|
 | beginning of line  | 0      |
 | first char of line | ^      |
 | end of line        | $      |

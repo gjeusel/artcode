@@ -22,7 +22,7 @@ pygmentsStyle="tango"
 
 [params]
     favicon = "images/logo.jpg"
-    description = "Nice site."
+    description = "Bring knowledge."
 
     # Structure / Tools:
     #math = true  # load katex
@@ -34,8 +34,8 @@ pygmentsStyle="tango"
     twitter = ""
     instagram = ""
     youtube = ""
-    github = "https://github.com/gjeusel"
-    linkedin = "https://www.linkedin.com/in/guillaume-jeusel/"
+    github = "gjeusel"
+    linkedin = "guillaume-jeusel"
 
     # Style:
     coverImageHome = "http://www.wallpast.com/wp-content/uploads/2017/12/samurai-champloo-wallpaper-samurai-champloo-wallpaper-samurai-champloo-wallpaper-phone-samurai-champloo-swords-wallpaper-samurai-champloo.jpg"
@@ -46,22 +46,22 @@ pygmentsStyle="tango"
   [[menu.main]]
     identifier = "cheatsheets"
     name = "Cheatsheets"
-    url = "cheatsheets/"
+    url = "/cheatsheets/"
     weight = 1
 
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
-    url = "posts/"
+    url = "/posts/"
     weight = 1
 
   [[menu.main]]
     name = "Categories"
-    url = "categories/"
+    url = "/categories/"
     weight = 2
     #pre = "<i class'fa fa-heart'></i>"
 
   [[menu.main]]
     name = "About"
-    url = "about/"
+    url = "/about/"
     weight = 3
