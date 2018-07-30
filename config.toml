@@ -56,12 +56,6 @@ pygmentsStyle="tango"
     weight = 1
 
   [[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 2
-    #pre = "<i class'fa fa-heart'></i>"
-
-  [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 3

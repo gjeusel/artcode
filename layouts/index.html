@@ -21,6 +21,7 @@
       </header>
       <div class="posts-container">
         {{ $.Scratch.Set "recentPosts" .Site.Pages }}
+        {{ printf "%#v" $.Site.pages }}
 
         {{ with .Site.Params.postAmount.sidebar }}
           {{ $.Scratch.Set "postLimit" . }}

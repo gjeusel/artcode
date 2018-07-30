@@ -1,9 +1,10 @@
 <nav class="flex list ph4 justify-between bb b--light-silver" id="navbar">
-
   <!--flex flex-column items-center nl6 nr6 bg-gray8 relative center-v-l-->
-  <a class="dim f3 fa fa-home no-underline" href="{{ .Site.BaseURL }}">
+  <a class="grow dim f3 fa fa-home no-underline" href="{{ .Site.BaseURL }}">
     Home
   </a>
+
+  <p class="pl4 f3">|</p>
 
   {{ range .Site.Menus.main }}
   <a class="dim ml4 f3 no-underline" href="{{.URL}}" title="{{.Title}}">
@@ -11,8 +12,11 @@
   </a>
   {{ end }}
 
-  <ul class="ml-auto f3 icons">
-    {{ partial "social.html" . }}
-  </ul>
+  <div class="ml-auto">
+    <ul class="dib f3 icons">
+      {{ partial "social.html" . }}
+    </ul>
+    <a class="dib grow pl4 pr2 f3 fa fa-search center no-underline" href="/tags"></a>
+  </div>
 
 </nav>

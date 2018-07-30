@@ -1,0 +1,19 @@
+<!-- menu-rec.html -->
+{{ $menuName := .menu }}
+{{ $currentPage := .current }}
+{{ $currentLevel := .level }}
+<ul class="level-{{ $currentLevel }}">
+  {{ range .pages }}
+    <li class="level-{{ $currentLevel }}">
+      {{ if .HasChildren }}
+        {{ .Pre }}
+        <div class="d-flex justify-content-between">
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </div>
+        {{ partial "menu-rec.html" (dict "menu" $menuName "current" $currentPage "level" (add $currentLevel 1) "pages" .Children) }}
+      {{else}}
+        <a href="{{.URL}}">{{ .Pre }}{{ .Name }}</a>
+      {{end}}
+    </li>
+  {{end}}
+</ul>

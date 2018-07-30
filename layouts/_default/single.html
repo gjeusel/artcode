@@ -1,6 +1,35 @@
 {{ define "main" }}
 <main class="center mv4 content-width ph3">
-  {{ partial "article-header" . }}
+
+  <!--Header article-->
+  <div class="flex pv2">
+    <!--Title-->
+    <div class="dib center">
+      <div class="f3 fw6 heading-color heading-font post-title">{{ .Title }}</div>
+
+      <!--Puts the tags or categories-->
+      <p class="silver f6 post-meta">
+        {{ if not .Date.IsZero }}<time>{{ .Date.Format "02 Jan 2006" }}</time>{{ end }}
+        {{ if or .Params.tags .Params.categories .Params.series }} | {{ end }}
+
+        {{ if isset .Params "categories" }}
+        categories: [ {{ range .Params.categories }}<a href='{{ "/categories/" | relLangURL }}{{ . | urlize }}' class="link silver">{{ . }}</a> {{ end }} ]
+        {{ end }}
+
+        {{ if isset .Params "tags" }}
+        tags: [ {{ range .Params.tags }}<a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}' class="link silver">{{ . }}</a> {{ end }} ]
+        {{ end }}
+      </p>
+    </div>
+
+    <div class="dib center self-center">
+      {{ if .Params.logo }}
+        <img class="mw4" src="{{ .Params.logo }}" alt="logo">
+      {{ else if .Params.photo }}
+        <img class="mw4" src="{{ .Params.photo }}" alt="image">
+      {{ end }}
+    </div>
+  </div>
   <div class="lh-copy post-content">{{ .Content }}</div>
 </main>
 {{ partial "table-of-contents" . }}
