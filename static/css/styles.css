@@ -1,3 +1,13 @@
+/*https://coolors.co/afd5aa-f0f2ef-a69f98-3d3d3d-8c6057*/
+:root {
+  --main-color: #8C6056;
+  --secondary-color: #AFD5AA;
+  --logo-text-color: #fff;
+  --body-text-color: #3d3d3d;
+  --heading-text-color: #383838;
+  --background-color: #fff;
+}
+
 html { font-size: 16px; }
 body { color: var(--body-text-color); background-color: var(--background-color);}
 
@@ -7,7 +17,7 @@ body { color: var(--body-text-color); background-color: var(--background-color);
 .heading-font, .global-font { font-family: "Source Sans Pro"; }
 .heading-color { color: var(--heading-text-color); }
 
-main a:hover, .list-pages a:hover, .pagination a:hover, #tag-cloud a:hover { 
+main a:hover, .list-pages a:hover, .pagination a:hover, #tag-cloud a:hover {
   border-bottom: 1px solid var(--body-text-color);
   color: var(--body-text-color);
 }
@@ -47,26 +57,11 @@ p code {
 }
 
 /*TOC*/
-#contents-list>.toc-list { 
-  max-width: 250px; 
+#contents-list>.toc-list {
+  max-width: 250px;
   overflow: hidden;
   position: fixed;
   right: 2rem;
-}
-@media (min-width: 1200px) {
-  #contents-list>.toc-list, #tag-cloud  { 
-    display: block; 
-    top: 100px;
-  }
-  #tag-cloud {
-    -webkit-transition: opacity .5s, visibility .5s;
-    transition: opacity .5s, visibility .5s;
-  }
-}
-@media (min-width: 1330px) {
-  #contents-list>.toc-list {
-    max-width: 300px; right: 3rem;
-  }
 }
 #contents-list ol {
   list-style: none;
@@ -118,6 +113,12 @@ table tr th[align="center"], table tr td[align="center"] {
 }
 
 /* Icons */
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1em;
+}
 ul.icons li {
   display: inline;
   padding: 0 1em 0 0;
@@ -131,6 +132,9 @@ ul.icons li:last-child {
 }
 ul.icons li > *:hover {
   transform:scale(1.20)
+}
+ul.icons li > *:visited {
+  color: var(--body-text-color);
 }
 ul.icons li > * {
   text-decoration: none;
@@ -156,4 +160,62 @@ ul.icons li > * .label {
 }
 #navbar a:visited {
   color: var(--body-text-color);
+}
+
+/* Intro */
+
+#intro {
+  align-items: center;
+  text-align: center;
+}
+
+#intro p,
+#intro .icons a {
+  /* Theoretically for IE 8 & 9 (more valid) */
+  /* ...but not required as filter works too */
+  /* should come BEFORE filter */
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+
+  /* This works in IE 8 & 9 too */
+  /* ... but also 5, 6, 7 */
+  filter: alpha(opacity=60);
+
+  /* Modern Browsers */
+  opacity: 0.6;
+}
+#intro .intro-circle {
+  border-radius: 50%;
+}
+#intro .logo {
+  border-bottom: 0;
+  display: inline-block;
+  margin: 0 0 1em 0;
+  overflow: hidden;
+  position: relative;
+  width: 4em;
+}
+#intro .logo:before {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100px' height='100px' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:%23f4f4f4' /%3E%3Cpolygon points='0,100 100,100 100,75 50,100 0,75' style='fill:%23f4f4f4' /%3E%3C/svg%3E");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#intro .logo img {
+  display: block;
+  margin-left: -0.25em;
+  width: 4.5em;
+}
+#intro header h2 {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+#intro header p {
+  font-size: 0.8em;
 }

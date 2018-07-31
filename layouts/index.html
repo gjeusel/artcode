@@ -13,52 +13,26 @@
     </div>
   </div>
 
-  <!-- Posts List -->
-  <section class="content-width center recent-posts">
-    <div class="mini-posts">
-      <header>
-        <h3>Recent Posts</h3>
-      </header>
-      <div class="posts-container">
-        {{ $.Scratch.Set "recentPosts" .Site.Pages }}
-        {{ printf "%#v" $.Site.pages }}
+  <div class="center flex mw9">
 
-        {{ with .Site.Params.postAmount.sidebar }}
-          {{ $.Scratch.Set "postLimit" . }}
-        {{ else }}
-          {{ $.Scratch.Set "postLimit" 5 }}
-        {{ end }}
-
-        {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "post") }}
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-              </h3>
-              {{ $.Scratch.Set "dateType" .Date }}
-              <time class="published" datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
-                {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
-              </time>
-            </header>
-            {{ .Render "featured" }}
-          </article>
-        {{ end }}
-      </div>
-
-      {{ if ge (len (where .Site.Pages "Type" "post")) ($.Scratch.Get "postLimit") }}
-        <a href=
-          {{ with .Site.Params.viewMorePostLink }}
-            {{ . }}
-          {{ else }}
-            "/post/"
-          {{ end }}
-        class="button">View more posts</a>
-      {{ end }}
+    <!--Intro-->
+    <div class="mr-auto mw4 pt4 v-top">
+      {{ partial "intro-pic.html" . }}
     </div>
-  </section>
-  <div class="fr mr4">
-    {{ partial "tag_cloud.html" . }}
+
+    <!-- Posts List -->
+    <div class="mw8">
+    {{ range (where .Site.Pages "Type" "post" ) }}
+      {{ partial "summary.html" . }}
+    {{ end }}
+    </div>
+
+    <!--Tag Cloud-->
+    <div class="ml-auto mw4 pt4 v-top tc" id="tag-cloud">
+      {{ partial "tag_cloud.html" . }}
+    </div>
+
   </div>
+
 </main>
-{{ partial "pagination.html" . }}
 {{ end }}

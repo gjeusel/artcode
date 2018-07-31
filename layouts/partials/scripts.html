@@ -14,17 +14,17 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 
-  {{ if .Site.Params.showTagCloud | default true }}
-  if (document.getElementById("tag-cloud") !== null) { 
-    if (prevScrollpos > currentScrollPos) { // scroll up
-      document.getElementById("tag-cloud").style.visibility = "visible";
-      document.getElementById("tag-cloud").style.opacity = "1";
-    } else {
-      document.getElementById("tag-cloud").style.visibility = "hidden";
-      document.getElementById("tag-cloud").style.opacity = "0";
-    }
-  }
-  {{ end }}
+  <!--{{ if .Site.Params.showTagCloud | default true }}-->
+  <!--if (document.getElementById("tag-cloud") !== null) { -->
+  <!--  if (prevScrollpos > currentScrollPos) { // scroll up-->
+  <!--    document.getElementById("tag-cloud").style.visibility = "visible";-->
+  <!--    document.getElementById("tag-cloud").style.opacity = "1";-->
+  <!--  } else {-->
+  <!--    document.getElementById("tag-cloud").style.visibility = "hidden";-->
+  <!--    document.getElementById("tag-cloud").style.opacity = "0";-->
+  <!--  }-->
+  <!--}-->
+  <!--{{ end }}-->
 
   {{ if .Site.Params.showScrollToTop | default true }}
   if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
