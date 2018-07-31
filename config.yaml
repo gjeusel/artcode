@@ -3,6 +3,8 @@ languageCode: "en-us"
 title: "ArtCode"
 theme: "er"
 
+publishDir: "docs"
+
 MetaDataFormat: "yaml"
 DefaultContentLanguage: "en"
 SectionPagesMenu: "main"
