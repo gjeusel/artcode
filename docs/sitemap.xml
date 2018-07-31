@@ -3,21 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://gjeusel.github.io/artcode/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://gjeusel.github.io/artcode/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/cheatsheets/</loc>
+    <loc>https://gjeusel.github.io/artcode/cheatsheets/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://gjeusel.github.io/artcode/tags/</loc>
     <priority>0</priority>
   </url>
   

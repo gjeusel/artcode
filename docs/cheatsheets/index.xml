@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cheatsheets Everything on ArtCode</title>
-    <link>http://example.org/cheatsheets/</link>
+    <link>https://gjeusel.github.io/artcode/cheatsheets/</link>
     <description>Recent content in Cheatsheets Everything on ArtCode</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/cheatsheets/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gjeusel.github.io/artcode/cheatsheets/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

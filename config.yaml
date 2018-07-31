@@ -1,4 +1,4 @@
-baseURL: "http://example.org/"
+baseURL: "https://gjeusel.github.io/artcode/"
 languageCode: "en-us"
 title: "ArtCode"
 theme: "er"
@@ -23,7 +23,7 @@ pygmentsStyle: "tango"
     #    secret: "hsGjWtWHR4HK4pT7cUsWTArJdZDxxE2pkdg/ArwCguqYQrhuubjj3RS9C5qa8xu4cx/Y9EwHwAMEeXPCZbLR9eW1K9L
 
 params:
-    favicon: "images/logo.jpg"
+    favicon: "img/logo.jpg"
     description: "Bring knowledge."
 
     # Structure / Tools:
