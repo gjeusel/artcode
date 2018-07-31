@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ArtCode</title>
-    <link>https://gjeusel.github.io/artcode/</link>
-    <description>Recent content on ArtCode</description>
+    <title>Trips on ArtCode</title>
+    <link>https://gjeusel.github.io/artcode/tags/trips/</link>
+    <description>Recent content in Trips on ArtCode</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Jul 2018 22:02:02 +0200</lastBuildDate>
     
-	<atom:link href="https://gjeusel.github.io/artcode/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gjeusel.github.io/artcode/tags/trips/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -30,24 +30,6 @@ posuere et, velit. Curabitur diam mauris, dictum vel, lacinia congue, molestie a
       <description>Morbi bibendum facilisis eros. Phasellus aliquam. Porta, felis a fermentum interdum, dui nisl sodales felis, ut fermentum sapien nibh eu nunc.
 Lorem ipsum dolor sit amet. Integer sed magna. Duis nisl nulla, porta ut, molestie sit amet, tincidunt eu, enim. Cras eu mauris. Cras iaculis, nisi vel tempor fringilla, nisl dolor imperdiet dolor, id lobortis ligula nunc sed dolor.
 Morbi bibendum facilisis eros. Phasellus aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</description>
-    </item>
-    
-    <item>
-      <title>Vim - Plugins</title>
-      <link>https://gjeusel.github.io/artcode/cheatsheets/vim/plugins/</link>
-      <pubDate>Sun, 29 Jul 2018 19:53:38 +0200</pubDate>
-      
-      <guid>https://gjeusel.github.io/artcode/cheatsheets/vim/plugins/</guid>
-      <description>https://vimawesome.com/</description>
-    </item>
-    
-    <item>
-      <title>Vim - Some Forgotten Basics</title>
-      <link>https://gjeusel.github.io/artcode/cheatsheets/vim/basics/</link>
-      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gjeusel.github.io/artcode/cheatsheets/vim/basics/</guid>
-      <description>Motions Moving cursor on screen    action motion     top of the screen H   middle of the screen M   bottom of the scrren L    Moving screen, not cursor    action motion     to the middle zz   to the top zt   to the bottom zb   one line to the top C-e   one line to the bottom C-y    Within a line    action motion     beginning of line 0   first char of line ^   end of line $   last char on line g_    Search navigation https://youtu.</description>
     </item>
     
   </channel>

@@ -3,7 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gjeusel.github.io/artcode/posts/brazil/</loc>
+    <lastmod>2018-07-31T22:02:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gjeusel.github.io/artcode/posts/columbia/</loc>
+    <lastmod>2018-07-30T20:06:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gjeusel.github.io/artcode/cheatsheets/vim/plugins/</loc>
+    <lastmod>2018-07-29T19:53:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gjeusel.github.io/artcode/cheatsheets/vim/basics/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gjeusel.github.io/artcode/</loc>
+    <lastmod>2018-07-31T22:02:02+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gjeusel.github.io/artcode/tags/basics/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14,10 +41,48 @@
   
   <url>
     <loc>https://gjeusel.github.io/artcode/cheatsheets/</loc>
+    <lastmod>2018-07-29T19:53:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gjeusel.github.io/artcode/tags/motions/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gjeusel.github.io/artcode/tags/neovim/</loc>
+    <lastmod>2018-07-29T19:53:38+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gjeusel.github.io/artcode/tags/plugins/</loc>
+    <lastmod>2018-07-29T19:53:38+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gjeusel.github.io/artcode/posts/</loc>
+    <lastmod>2018-07-31T22:02:02+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gjeusel.github.io/artcode/tags/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gjeusel.github.io/artcode/tags/trips/</loc>
+    <lastmod>2018-07-31T22:02:02+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gjeusel.github.io/artcode/tags/vim/</loc>
+    <lastmod>2018-07-29T19:53:38+02:00</lastmod>
     <priority>0</priority>
   </url>
   

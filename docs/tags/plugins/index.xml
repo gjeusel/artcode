@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plugins on ArtCode</title>
+    <link>https://gjeusel.github.io/artcode/tags/plugins/</link>
+    <description>Recent content in Plugins on ArtCode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Jul 2018 19:53:38 +0200</lastBuildDate>
+    
+	<atom:link href="https://gjeusel.github.io/artcode/tags/plugins/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vim - Plugins</title>
+      <link>https://gjeusel.github.io/artcode/cheatsheets/vim/plugins/</link>
+      <pubDate>Sun, 29 Jul 2018 19:53:38 +0200</pubDate>
+      
+      <guid>https://gjeusel.github.io/artcode/cheatsheets/vim/plugins/</guid>
+      <description>https://vimawesome.com/</description>
+    </item>
+    
+  </channel>
+</rss>
