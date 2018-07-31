@@ -1,0 +1,221 @@
+/*https://coolors.co/afd5aa-f0f2ef-a69f98-3d3d3d-8c6057*/
+:root {
+  --main-color: #8C6056;
+  --secondary-color: #AFD5AA;
+  --logo-text-color: #fff;
+  --body-text-color: #3d3d3d;
+  --heading-text-color: #383838;
+  --background-color: #fff;
+}
+
+html { font-size: 16px; }
+body { color: var(--body-text-color); background-color: var(--background-color);}
+
+.main-color { color: var(--main-color); }
+.secondary-color { color: var(--secondary-color); }
+.bg-main-color { background-color: var(--main-color); color: var(--logo-text-color); }
+.heading-font, .global-font { font-family: "Source Sans Pro"; }
+.heading-color { color: var(--heading-text-color); }
+
+main a:hover, .list-pages a:hover, .pagination a:hover, #tag-cloud a:hover {
+  border-bottom: 1px solid var(--body-text-color);
+  color: var(--body-text-color);
+}
+
+.content-width {
+  max-width: 650px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0px;
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+/*pre for Pre formatted text*/
+pre {
+  font-size: 0.9em;
+  padding: 10px 20px 10px 20px;
+  overflow: auto;
+  line-height: 1.25em;
+}
+
+/*Paragraph for code*/
+p code {
+  padding: .25rem .5rem;
+  font-size: 0.9em;
+  background-color: #f8f8f8;
+}
+
+/*Tag Cloud*/
+#tag-cloud {
+  max-width: 250px;
+}
+#tag-cloud a:hover {
+  border-bottom: 1px solid var(--body-text-color);
+  color: var(--body-text-color);
+}
+
+/*TOC*/
+#contents-list>.toc-list {
+  max-width: 250px;
+  overflow: hidden;
+  position: fixed;
+  right: 2rem;
+}
+#contents-list ol {
+  list-style: none;
+}
+
+/*Blockquote*/
+blockquote {
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-color: var(--secondary-color);
+  border-width: .25rem;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  padding-left: 1rem;
+}
+blockquote p {
+  color: #666;
+  margin-top: 0;
+  line-height: 1.5;
+  font-style: italic;
+}
+blockquote p>cite {
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: .1em;
+  font-size: .875rem;
+  display: block;
+}
+
+/*Table*/
+table {
+  font-size: 14px;
+  border-collapse:collapse;
+  margin: 2rem auto;
+  padding:0;
+}
+table tr {
+  border-top:1px solid #ccc;
+  background-color:#fff;
+  margin:0;
+  padding:0;
+}
+table tr:nth-child(2n) {
+  background-color:#f8f8f8;
+}
+table tr th[align="center"], table tr td[align="center"] {
+  text-align:center;
+}
+
+/* Icons */
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1em;
+}
+ul.icons li {
+  display: inline;
+  padding: 0 1em 0 0;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+ul.icons li:last-child {
+  padding-right: 0;
+}
+ul.icons li > *:hover {
+  transform:scale(1.20)
+}
+ul.icons li > *:visited {
+  color: var(--body-text-color);
+}
+ul.icons li > * {
+  text-decoration: none;
+  border: 0;
+}
+ul.icons li > *:before {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+ul.icons li > * .label {
+  display: none;
+}
+
+/*Nav Bar*/
+#navbar {
+  font-family: "Source Sans Pro";
+  align-items: center;
+}
+#navbar a {
+  color: var(--body-text-color);
+}
+#navbar a:visited {
+  color: var(--body-text-color);
+}
+
+/* Intro */
+
+#intro {
+  align-items: center;
+  text-align: center;
+}
+
+#intro p,
+#intro .icons a {
+  /* Theoretically for IE 8 & 9 (more valid) */
+  /* ...but not required as filter works too */
+  /* should come BEFORE filter */
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+
+  /* This works in IE 8 & 9 too */
+  /* ... but also 5, 6, 7 */
+  filter: alpha(opacity=60);
+
+  /* Modern Browsers */
+  opacity: 0.6;
+}
+#intro .intro-circle {
+  border-radius: 50%;
+}
+#intro .logo {
+  border-bottom: 0;
+  display: inline-block;
+  margin: 0 0 1em 0;
+  overflow: hidden;
+  position: relative;
+  width: 4em;
+}
+#intro .logo:before {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100px' height='100px' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:%23f4f4f4' /%3E%3Cpolygon points='0,100 100,100 100,75 50,100 0,75' style='fill:%23f4f4f4' /%3E%3C/svg%3E");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#intro .logo img {
+  display: block;
+  margin-left: -0.25em;
+  width: 4.5em;
+}
+#intro header h2 {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+#intro header p {
+  font-size: 0.8em;
+}
