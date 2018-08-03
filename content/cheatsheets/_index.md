@@ -1,5 +1,5 @@
 +++
-title = "Cheatsheets Everything"
+title = "Cheatsheets"
 +++
 
-Here you'll find all sort of interesting cheatsheets.
+Let's personalize your knowledge.
