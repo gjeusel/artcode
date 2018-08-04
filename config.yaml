@@ -1,7 +1,7 @@
 baseURL: "https://gjeusel.github.io/artcode/"
 languageCode: "en-us"
 title: "ArtCode"
-theme: "er"
+#theme: "er"
 
 publishDir: "docs"
 
