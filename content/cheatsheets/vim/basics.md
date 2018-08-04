@@ -1,7 +1,7 @@
 +++
 type = "vim"
 date = "2018-07-29"
-title = "Vim - Some Forgotten Basics"
+title = "Some Forgotten Basics"
 draft = true
 toc = true
 logo = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Neovim-logo.svg/1280px-Neovim-logo.svg.png"
@@ -9,6 +9,7 @@ tags = ["vim", "neovim", "basics", "motions",]
 +++
 -----
 
+This is about the interesting points of &nbsp; ```:help quickref``` &nbsp; in vim.
 
 # Motions
 
@@ -17,34 +18,62 @@ tags = ["vim", "neovim", "basics", "motions",]
 
 ## Moving cursor on screen
 
-| action                  | motion |
-|:-----------------------:|-------:|
-| top of the screen       | `H`    |
-| middle of the screen    | `M`    |
-| bottom of the scrren    | `L`    |
+|        action        | key |
+|:--------------------:|----:|
+|   top of the screen  | `H` |
+| middle of the screen | `M` |
+| bottom of the scrren | `L` |
 
 
 ## Moving screen, not cursor
 
-| action                    | motion    |
-|:-------------------------:| ---------:|
-| to the middle             | `zz`      |
-| to the top                | `zt`      |
-| to the bottom             | `zb`      |
-| one line to the top       | `C-e`     |
-| one line to the bottom    | `C-y`     |
+| action                      | key        |
+| :-------------------------: | ---------: |
+| to the middle               | `zz`       |
+| to the top                  | `zt`       |
+| to the bottom               | `zb`       |
+| one line to the top         | `C-e`      |
+| one line to the bottom      | `C-y`      |
+
+## Scrolling
+
+By the way: [Nice plugin for smoothed scrolling](https://github.com/terryma/vim-smooth-scroll).
+
+| action                      | key        |
+| :-------------------------: | ---------: |
+| scroll full-page up         | `C-b`      |
+| scroll full-page down       | `C-f`      |
+| scroll half-page up         | `C-u`      |
+| scroll half-page-down       | `C-d`      |
+
 
 ## Within a line
 
-| action             | motion |
-|:------------------:|-------:|
-| beginning of line  | 0      |
-| first char of line | ^      |
-| end of line        | $      |
-| last char on line  | g_     |
+|       action       |  key |
+|:------------------:|-----:|
+|  beginning of line |  `0` |
+| first char of line |  `^` |
+|     end of line    |  `$` |
+|  last char on line | `g_` |
 
 
 ## Search navigation
+
+| Action                 | Next   | Previous           |
+| :--------------------: | :----: | :-----------:      |
+| f &nbsp; something     | `;`    | `,` &nbsp; (comma) |
+| F &nbsp; something     | `;`    | `,` &nbsp; (comma) |
+| t &nbsp; something     | `;`    | `,` &nbsp; (comma) |
+| T &nbsp; something     | `;`    | `,` &nbsp; (comma) |
+
+*Warning*: `,` (comma) is often used for leader key
+
+
+# Commands
+
+|           Action           |      Command     |
+|:--------------------------:|:----------------:|
+| open help in vertical split | :&nbsp;vert help |
 
 Lorem. Sed turpis enim, faucibus quis, pharetra in, sagittis sed, magna.
 Curabitur ultricies felis ut libero. Nullam tincidunt enim eu nibh. Nunc eget
