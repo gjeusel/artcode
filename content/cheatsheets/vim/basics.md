@@ -12,13 +12,16 @@ tags = ["vim", "neovim", "basics", "motions",]
 
 # Motions
 
+[Nice Youtube Presentation](https://youtu.be/Qem8cpbJeYc)
+
+
 ## Moving cursor on screen
 
-| action               | motion |
-|:--------------------:|-------:|
-| top of the screen    | `H`    |
-| middle of the screen | `M`    |
-| bottom of the scrren | `L`    |
+| action                  | motion |
+|:-----------------------:|-------:|
+| top of the screen       | `H`    |
+| middle of the screen    | `M`    |
+| bottom of the scrren    | `L`    |
 
 
 ## Moving screen, not cursor
@@ -42,112 +45,115 @@ tags = ["vim", "neovim", "basics", "motions",]
 
 
 ## Search navigation
-https://youtu.be/Qem8cpbJeYc?t=920
 
+Lorem. Sed turpis enim, faucibus quis, pharetra in, sagittis sed, magna.
+Curabitur ultricies felis ut libero. Nullam tincidunt enim eu nibh. Nunc eget
+ipsum in sem facilisis convallis. Proin fermentum risus. Vestibulum ante ipsum
+primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum
+hendrerit malesuada odio. Fusce ut elit ut augue sollicitudin blandit. Phasellus
+volutpat lorem. Duis non pede et neque luctus tincidunt. Duis interdum tempus
+elit.
 
+# Another title
 
+Aenean metus. Vestibulum ac lacus. Vivamus porttitor, massa ut hendrerit
+bibendum, metus augue aliquet turpis, vitae pellentesque velit est vitae metus.
+Duis eros enim, fermentum at, sagittis id, lacinia eget, tellus. Nunc consequat
+pede et nulla. Donec nibh. Pellentesque cursus orci vitae urna. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Pellentesque risus turpis, aliquet ac, accumsan vel, iaculis eget, enim.
+Pellentesque nibh neque, malesuada id, tempor vel, aliquet ut, eros. In hac
+habitasse platea dictumst. Integer neque purus, congue sed, mattis sed,
+vulputate ac, pede. Donec vestibulum purus non tortor. Integer at nunc.
 
+Suspendisse fermentum velit quis sem. Phasellus suscipit nunc in risus. Nulla
+sed lectus. Morbi sollicitudin, diam ac bibendum scelerisque, enim tortor
+rhoncus sapien, vel posuere dolor neque in sem. Pellentesque tellus augue,
+tempus nec, laoreet at, porttitor blandit, leo. Phasellus in odio. Duis
+lobortis, metus eu laoreet tristique, pede mi congue mi, quis posuere augue
+nulla a augue. Pellentesque sed est. Mauris cursus urna id lectus. Integer
+dignissim feugiat eros. Sed tempor volutpat dolor. Vestibulum vel lectus nec
+mauris semper adipiscing.
 
-Mus. Morbi pretium purus a magna. Nullam dui tellus, blandit eu, facilisis non,
-pharetra consectetuer, leo. Maecenas sit amet ante sagittis magna imperdiet
-pulvinar. Vestibulum a lacus at sapien suscipit tempus. Proin pulvinar velit sed
-nulla. Curabitur aliquet leo ac massa. Praesent posuere lectus vitae odio. Donec
-imperdiet urna vel ante. In semper accumsan diam. Vestibulum porta justo.
-Suspendisse egestas commodo eros.
+Aliquam tincidunt enim sit amet tellus. Sed mauris nulla, semper tincidunt,
+luctus a, sodales eget, leo. Sed ligula augue, cursus et, posuere non, mollis
+sit amet, est. Mauris massa. Proin hendrerit massa. Phasellus eu purus. Donec
+est neque, dignissim a, eleifend vitae, lobortis ut, nibh. Nullam sed lorem.
+Proin laoreet augue quis eros. Suspendisse vehicula nunc ac nisi.
 
-Suspendisse tincidunt mi vel metus. Vivamus non urna in nisi gravida congue.
-Aenean semper orci a eros. Praesent dictum. Maecenas pharetra odio ut dui.
-Pellentesque ut orci. Sed lobortis, velit at laoreet suscipit, quam est sagittis
-nibh, id varius ipsum quam ac metus. Phasellus est nibh, bibendum non, dictum
-sed, vehicula in, sem. Vestibulum ante ipsum primis in faucibus orci luctus et
-ultrices posuere cubilia Curae; Mauris sollicitudin. Duis congue tincidunt orci.
-Integer blandit neque ut quam. Morbi mollis. Integer lacinia. Praesent blandit
-elementum sapien. Praesent enim mauris, suscipit a, auctor et, lacinia vitae,
-nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-ac turpis egestas. Praesent lacus diam, auctor quis, venenatis in, hendrerit at,
-est. Vivamus eget eros. Phasellus congue, sapien ac iaculis feugiat, lacus lacus
-accumsan lorem, quis volutpat justo turpis ac mauris.
-
-Duis velit magna, scelerisque vitae, varius ut, aliquam vel, justo. Proin ac
-augue. Nullam auctor lectus vitae arcu. Vestibulum porta justo placerat purus.
-Ut sem nunc, vestibulum nec, sodales vitae, vehicula eget, ipsum. Sed nec
-tortor. Aenean malesuada. Nunc convallis, massa eu vestibulum commodo, quam
-mauris interdum arcu, at pellentesque diam metus ut nulla. Vestibulum eu dolor
-sit amet lacus varius fermentum. Morbi dolor enim, pulvinar eget, lobortis ac,
-fringilla ac, turpis. Duis ac erat. Etiam consequat. Integer sed est eu elit
-pellentesque dapibus. Duis venenatis magna feugiat nisi. Vestibulum et turpis.
-Maecenas a enim. Suspendisse ultricies ornare justo. Fusce sit amet nisi sed
-arcu condimentum venenatis. Vivamus dui. Nunc accumsan, quam a fermentum mattis,
-magna sapien iaculis pede, at porttitor quam odio at est.
-
-Proin eleifend nisi et nibh. Maecenas a lacus. Mauris porta quam non massa
-molestie scelerisque. Nulla sed ante at lorem suscipit rutrum. Nam quis tellus.
-Cras elit nisi, ornare a, condimentum vitae, rutrum sit amet, tellus. Maecenas a
-dolor. Praesent tempor, felis eget gravida blandit, urna lacus faucibus velit,
-in consectetuer sapien erat nec quam. Integer bibendum odio sit amet neque.
-Integer imperdiet rhoncus mi. Pellentesque malesuada purus id purus. Quisque
-viverra porta lectus. Sed lacus leo, feugiat at, consectetuer eu, luctus quis,
-risus. Suspendisse faucibus orci et nunc. Nullam vehicula fermentum risus. Fusce
-felis nibh, dignissim vulputate, ultrices quis, lobortis et, arcu. Duis aliquam
-libero non diam.
-
-Vestibulum placerat tincidunt tortor. Ut vehicula ligula quis lectus. In eget
-velit. Quisque vel risus. Mauris pede. Nullam ornare sapien sit amet nisl. Cras
-tortor. Donec tortor lorem, dignissim sit amet, pulvinar eget, mattis eu, metus.
-Cras vestibulum erat ultrices neque. Praesent rhoncus, dui blandit pellentesque
-congue, mauris mi ullamcorper odio, eget ultricies nunc felis in augue. Nullam
-porta nunc. Donec in pede ac mauris mattis eleifend. Cras a libero vel est
-lacinia dictum. In hac habitasse platea dictumst. Nullam malesuada molestie
-lorem. Nunc non mauris. Nam accumsan tortor gravida elit. Cras porttitor.
-
-Praesent vel enim sed eros luctus imperdiet. Mauris neque ante, placerat at,
-mollis vitae, faucibus quis, leo. Ut feugiat. Vivamus urna quam, congue
-vulputate, convallis non, cursus cursus, risus. Quisque aliquet. Donec vulputate
-egestas elit. Morbi dictum, sem sit amet aliquam euismod, odio tortor
-pellentesque odio, ac ultrices enim nibh sed quam. Integer tortor velit,
-condimentum a, vestibulum eget, sagittis nec, neque. Aenean est urna, bibendum
-et, imperdiet at, rhoncus in, arcu. In hac habitasse platea dictumst. Vestibulum
-blandit dignissim dui. Maecenas vitae magna non felis ornare consectetuer. Sed
-lorem. Nam leo. In eget pede. Donec porta.
-
-Etiam facilisis. Nam suscipit. Ut consectetuer leo vehicula augue. Aliquam
-cursus. Integer pharetra rhoncus massa. Cras et ligula vel quam tristique
-commodo. Sed est lectus, mollis quis, lacinia id, sollicitudin nec, eros.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce mi. Vivamus enim
+velit, condimentum sit amet, laoreet quis, fermentum non, ipsum. Etiam quis
+felis. Curabitur tincidunt, sapien et luctus faucibus, nibh nisi commodo arcu,
+vitae cursus neque ante sed elit. Sed sit amet erat. Phasellus luctus cursus
+risus. Phasellus ac felis. Proin nec eros quis ipsum pellentesque congue.
+Curabitur et diam sed odio accumsan cursus. Pellentesque ultricies. Quisque
+aliquam. Sed nisi velit, consectetuer eget, dictum ac, molestie a, magna.
 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-Curae; Morbi urna dui, fermentum quis, feugiat imperdiet, imperdiet id, sapien.
-Phasellus auctor nunc. Vivamus eget augue quis neque vestibulum placerat. Duis
-placerat. Maecenas accumsan rutrum lacus. Vestibulum lacinia semper nibh. Aenean
-diam odio, scelerisque at, ullamcorper nec, tincidunt dapibus, quam. Duis vel
-ante nec tortor porta mollis. Praesent orci. Cras dignissim vulputate metus.
+Curae; Curabitur consequat leo et dui. Aenean ligula mi, dignissim ut, imperdiet
+tristique, interdum a, dolor.
 
-Phasellus eu quam. Quisque interdum cursus purus. In orci. Maecenas vehicula.
-Sed et mauris. Praesent feugiat viverra lacus. Suspendisse pulvinar lacus ut
-nunc. Quisque nisi. Suspendisse id risus nec nisi ultrices ornare. Donec eget
-tellus. Nullam molestie placerat felis. Aenean facilisis. Nunc erat. Integer in
-tellus. Mauris volutpat, neque vel ornare porttitor, dolor nisi sagittis dolor,
-sit amet bibendum orci leo blandit lacus.
+Vestibulum elit nibh, rhoncus non, euismod sit amet, pretium eu, enim. Nunc
+commodo ultricies dui. Cras gravida rutrum massa. Donec accumsan mattis turpis.
+Quisque sem. Quisque elementum sapien iaculis augue. In dui sem, congue sit
+amet, feugiat quis, lobortis at, eros.
 
-In id velit sodales arcu iaculis venenatis. Etiam at leo. Vivamus vitae sem.
-Mauris volutpat congue risus. Curabitur leo. Aenean tempor tortor eget ligula.
-Aenean vel augue. Vestibulum ac justo. In hac habitasse platea dictumst. Nam
-dignissim nisi non mauris. Donec et tortor. Morbi felis. Donec aliquet, erat eu
-ultrices tincidunt, lorem mi sagittis lectus, ut feugiat pede lacus quis sapien.
-Suspendisse porta, felis a fermentum interdum, dui nisl sodales felis, ut
-fermentum sapien nibh eu nunc.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum
+vehicula purus. Cum sociis natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus.
 
-Lorem ipsum dolor sit amet. Integer sed magna. Duis nisl nulla, porta ut,
-molestie sit amet, tincidunt eu, enim. Cras eu mauris. Cras iaculis, nisi vel
-tempor fringilla, nisl dolor imperdiet dolor, id lobortis ligula nunc sed dolor.
+Aenean risus dui, volutpat non, posuere vitae, sollicitudin in, urna. Nam eget
+eros a enim pulvinar rhoncus. Cum sociis natoque penatibus et magnis dis
+parturient montes, nascetur ridiculus mus. Nulla facilisis massa ut massa. Sed
+nisi purus, malesuada eu, porta vulputate, suscipit auctor, nunc. Vestibulum
+convallis, augue eu luctus malesuada, mi ante mattis odio, ac venenatis neque
+sem vitae nisi. Donec pellentesque purus a lorem. Etiam in massa. Nam ut metus.
+In rhoncus venenatis tellus. Etiam aliquam. Ut aliquam lectus ut lectus. Nam
+turpis lacus, tristique sit amet, convallis sollicitudin, commodo a, purus.
+Nulla vitae eros a diam blandit mollis. Proin luctus feugiat eros. Pellentesque
+habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Duis ultricies urna. Etiam enim urna, pharetra suscipit, varius et, congue quis,
+odio. Donec lobortis, elit bibendum euismod faucibus, velit nibh egestas libero,
+vitae pellentesque elit augue ut massa.
 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-himenaeos. Curabitur eu dui vitae nulla tempor consectetuer. Suspendisse ligula
-dolor, varius nec, vulputate id, luctus sed, lacus. Pellentesque purus urna,
-porta molestie, mattis non, posuere et, velit. Curabitur diam mauris, dictum
-vel, lacinia congue, molestie at, nisi. Proin tempus diam ut ligula. Mauris
-dictum, metus dapibus iaculis sollicitudin, leo ligula cursus sem, eu congue
-metus ligula sed justo. Suspendisse potenti. Donec sodales elementum turpis.
-Duis dolor elit, dapibus sed, placerat vitae, auctor sit amet, nunc. Donec nisl
-quam, hendrerit vitae, porttitor et, imperdiet id, quam. Quisque dolor. Nulla
-tincidunt, lacus id dapibus ullamcorper, turpis diam fringilla eros, quis
-aliquet dolor.
+Nulla consequat erat at massa. Vivamus id mi. Morbi purus enim, dapibus a,
+facilisis non, tincidunt at, enim. Vestibulum ante ipsum primis in faucibus orci
+luctus et ultrices posuere cubilia Curae; Duis imperdiet eleifend arcu. Cras
+magna ligula, consequat at, tempor non, posuere nec, libero. Vestibulum vel
+ipsum. Praesent congue justo et nunc. Vestibulum nec felis vitae nisl pharetra
+sollicitudin. Quisque nec arcu vel tellus tristique vestibulum. Aenean vel
+lacus. Mauris dolor erat, commodo ut, dapibus vehicula, lobortis sit amet, orci.
+Aliquam augue. In semper nisi nec libero. Cras magna ipsum, scelerisque et,
+tempor eget, gravida nec, lacus. Fusce eros nisi, ullamcorper blandit, ultricies
+eget, elementum eget, pede. Phasellus id risus vitae nisl ullamcorper congue.
+Proin est.
+
+Sed eleifend odio sed leo. Mauris tortor turpis, dignissim vel, ornare ac,
+ultricies quis, magna. Phasellus lacinia, augue ac dictum tempor, nisi felis
+ornare magna, eu vehicula tellus enim eu neque. Fusce est eros, sagittis eget,
+interdum a, ornare suscipit, massa. Sed vehicula elementum ligula. Aliquam erat
+volutpat. Donec odio. Quisque nunc. Integer cursus feugiat magna. Fusce ac elit
+ut elit aliquam suscipit. Duis leo est, interdum nec, varius in, facilisis
+vitae, odio. Phasellus eget leo at urna adipiscing vulputate. Nam eu erat vel
+arcu tristique mattis. Nullam placerat lorem non augue. Cras et velit. Morbi
+sapien nulla, volutpat a, tristique eu, molestie ac, felis.
+
+Suspendisse sit amet tellus non odio porta pellentesque. Nulla facilisi. Integer
+iaculis condimentum augue. Nullam urna nulla, vestibulum quis, lacinia eget,
+ullamcorper eu, dui. Quisque dignissim consequat nisl. Pellentesque porta augue
+in diam. Duis mattis. Aliquam et mi quis turpis pellentesque consequat.
+Suspendisse nulla erat, lacinia nec, pretium vitae, feugiat ac, quam. Etiam sed
+tellus vel est ultrices condimentum. Vestibulum euismod. Vivamus blandit.
+Pellentesque eu urna. Vestibulum consequat sem vitae dui. In dictum feugiat
+quam. Phasellus placerat. In sem nisl, elementum vitae, venenatis nec, lacinia
+ac, arcu. Pellentesque gravida egestas mi. Integer rutrum tincidunt libero.
+
+Duis viverra. Nulla diam lectus, tincidunt et, scelerisque vitae, aliquam vitae,
+justo. Quisque eget erat. Donec aliquet porta magna. Sed nisl. Ut tellus.
+Suspendisse quis mi eget dolor sagittis tristique. Aenean non pede eget nisl
+bibendum gravida. Class aptent taciti sociosqu ad litora torquent per conubia
+nostra, per inceptos himenaeos. Morbi laoreet. Suspendisse potenti. Donec
+accumsan porta felis.
+
+Fusce tristique leo quis pede. Cras nibh. Sed eget est vitae tortor mollis
+ullamcorper. 
 
