@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zsh on ArtCode</title>
+    <link>https://gjeusel.github.io/artcode/cheatsheets/zsh/</link>
+    <description>Recent content in Zsh on ArtCode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Aug 2018 21:22:17 +0200</lastBuildDate>
+    
+	<atom:link href="https://gjeusel.github.io/artcode/cheatsheets/zsh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>https://gjeusel.github.io/artcode/cheatsheets/zsh/test/</link>
+      <pubDate>Thu, 02 Aug 2018 21:22:17 +0200</pubDate>
+      
+      <guid>https://gjeusel.github.io/artcode/cheatsheets/zsh/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plugins</title>
+      <link>https://gjeusel.github.io/artcode/cheatsheets/zsh/plugins/</link>
+      <pubDate>Thu, 02 Aug 2018 21:22:00 +0200</pubDate>
+      
+      <guid>https://gjeusel.github.io/artcode/cheatsheets/zsh/plugins/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
