@@ -2,6 +2,7 @@
 :root {
   --main-color: #211527;
   --secondary-color: #8b1524;
+  --table-header-color: #f4ebe3;
   --logo-text-color: #fff;
   --body-text-color: #3d3d3d;
   --heading-text-color: #383838;
@@ -118,6 +119,10 @@ table {
   margin: 2rem auto;
   padding:0;
 }
+table th {
+    font-size: 16px;
+    background-color: var(--table-header-color);
+}
 table tr {
   border-top:1px solid #ccc;
   background-color:#fff;
@@ -129,6 +134,9 @@ table tr:nth-child(2n) {
 }
 table tr th[align="center"], table tr td[align="center"] {
   text-align:center;
+}
+table th, td {
+  padding: 5px;
 }
 
 /* Icons */

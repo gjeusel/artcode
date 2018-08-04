@@ -140,7 +140,7 @@ type="image/x-icon"/>
   <div class="flex pv2">
     
     <div class="dib center">
-      <div class="f3 fw6 heading-color heading-font post-title">Vim - Some Forgotten Basics</div>
+      <div class="f3 fw6 heading-color heading-font post-title">Some Forgotten Basics</div>
 
       
       <p class="silver f6 post-meta">
@@ -165,6 +165,8 @@ type="image/x-icon"/>
 
 <hr />
 
+<p>This is about the interesting points of &nbsp; <code>:help quickref</code> &nbsp; in vim.</p>
+
 <h1 id="motions">Motions</h1>
 
 <p><a href="https://youtu.be/Qem8cpbJeYc">Nice Youtube Presentation</a></p>
@@ -175,7 +177,7 @@ type="image/x-icon"/>
 <thead>
 <tr>
 <th align="center">action</th>
-<th align="right">motion</th>
+<th align="right">key</th>
 </tr>
 </thead>
 
@@ -203,7 +205,7 @@ type="image/x-icon"/>
 <thead>
 <tr>
 <th align="center">action</th>
-<th align="right">motion</th>
+<th align="right">key</th>
 </tr>
 </thead>
 
@@ -235,40 +237,131 @@ type="image/x-icon"/>
 </tbody>
 </table>
 
+<h2 id="scrolling">Scrolling</h2>
+
+<p>By the way: <a href="https://github.com/terryma/vim-smooth-scroll">Nice plugin for smoothed scrolling</a>.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center">action</th>
+<th align="right">key</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">scroll full-page up</td>
+<td align="right"><code>C-b</code></td>
+</tr>
+
+<tr>
+<td align="center">scroll full-page down</td>
+<td align="right"><code>C-f</code></td>
+</tr>
+
+<tr>
+<td align="center">scroll half-page up</td>
+<td align="right"><code>C-u</code></td>
+</tr>
+
+<tr>
+<td align="center">scroll half-page-down</td>
+<td align="right"><code>C-d</code></td>
+</tr>
+</tbody>
+</table>
+
 <h2 id="within-a-line">Within a line</h2>
 
 <table>
 <thead>
 <tr>
 <th align="center">action</th>
-<th align="right">motion</th>
+<th align="right">key</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
 <td align="center">beginning of line</td>
-<td align="right">0</td>
+<td align="right"><code>0</code></td>
 </tr>
 
 <tr>
 <td align="center">first char of line</td>
-<td align="right">^</td>
+<td align="right"><code>^</code></td>
 </tr>
 
 <tr>
 <td align="center">end of line</td>
-<td align="right">$</td>
+<td align="right"><code>$</code></td>
 </tr>
 
 <tr>
 <td align="center">last char on line</td>
-<td align="right">g_</td>
+<td align="right"><code>g_</code></td>
 </tr>
 </tbody>
 </table>
 
 <h2 id="search-navigation">Search navigation</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Action</th>
+<th align="center">Next</th>
+<th align="center">Previous</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">f &nbsp; something</td>
+<td align="center"><code>;</code></td>
+<td align="center"><code>,</code> &nbsp; (comma)</td>
+</tr>
+
+<tr>
+<td align="center">F &nbsp; something</td>
+<td align="center"><code>;</code></td>
+<td align="center"><code>,</code> &nbsp; (comma)</td>
+</tr>
+
+<tr>
+<td align="center">t &nbsp; something</td>
+<td align="center"><code>;</code></td>
+<td align="center"><code>,</code> &nbsp; (comma)</td>
+</tr>
+
+<tr>
+<td align="center">T &nbsp; something</td>
+<td align="center"><code>;</code></td>
+<td align="center"><code>,</code> &nbsp; (comma)</td>
+</tr>
+</tbody>
+</table>
+
+<p><em>Warning</em>: <code>,</code> (comma) is often used for leader key</p>
+
+<h1 id="commands">Commands</h1>
+
+<table>
+<thead>
+<tr>
+<th align="center">Action</th>
+<th align="center">Command</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">open help in vertical split</td>
+<td align="center">:&nbsp;vert help</td>
+</tr>
+</tbody>
+</table>
 
 <p>Lorem. Sed turpis enim, faucibus quis, pharetra in, sagittis sed, magna.
 Curabitur ultricies felis ut libero. Nullam tincidunt enim eu nibh. Nunc eget

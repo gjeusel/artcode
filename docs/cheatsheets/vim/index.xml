@@ -21,13 +21,14 @@
     </item>
     
     <item>
-      <title>Vim - Some Forgotten Basics</title>
+      <title>Some Forgotten Basics</title>
       <link>https://gjeusel.github.io/artcode/cheatsheets/vim/basics/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://gjeusel.github.io/artcode/cheatsheets/vim/basics/</guid>
-      <description>Motions Nice Youtube Presentation
-Moving cursor on screen    action motion     top of the screen H   middle of the screen M   bottom of the scrren L    Moving screen, not cursor    action motion     to the middle zz   to the top zt   to the bottom zb   one line to the top C-e   one line to the bottom C-y    Within a line    action motion     beginning of line 0   first char of line ^   end of line $   last char on line g_    Search navigation Lorem.</description>
+      <description>This is about the interesting points of &amp;nbsp; :help quickref &amp;nbsp; in vim.
+Motions Nice Youtube Presentation
+Moving cursor on screen    action key     top of the screen H   middle of the screen M   bottom of the scrren L    Moving screen, not cursor    action key     to the middle zz   to the top zt   to the bottom zb   one line to the top C-e   one line to the bottom C-y    Scrolling By the way: Nice plugin for smoothed scrolling.</description>
     </item>
     
   </channel>
