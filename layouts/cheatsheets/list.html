@@ -1,11 +1,11 @@
 {{ define "main" }}
 
-<main class="center mv4 content-width ph3">
+<main class="mw7 mv4 ph3 center">
 
 <h1 class="f2 fw6 tc pb3 heading-font">{{ .CurrentSection.Title }}</h1>
 {{ .CurrentSection.Content }}
 
-<div class="list">
+<div class="f5 fw5" id="subsection-nav">
   {{ template "section-tree-nav" . }}
 </div>
 

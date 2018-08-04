@@ -1,11 +1,11 @@
 </div>{{ define "section-tree-nav" }}
 {{ range .Sections.Reverse}}
 
-<ul>
+<ul class="list">
   <li>{{ .Title }}
-    <ul>
+    <ul class="pt2">
       {{ range .Pages }}
-      <li><a href="{{ .RelPermalink}}">{{ .Title }}</a></li>
+      <li><a class="link dim dark-blue hover-dark-blue no-underline" href="{{ .RelPermalink}}">{{ .Title }}</a></li>
       {{ end }}
       <ul>
         {{ template "section-tree-nav" . }}
