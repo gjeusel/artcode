@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="center mv4 content-width ph3">
+<main class="center mv4 mw7 ph3">
 
   <!--Header article-->
   <div class="flex pv2">
@@ -31,9 +31,11 @@
     </div>
   </div>
   <div class="lh-copy post-content">{{ .Content }}</div>
-</main>
-{{ partial "table-of-contents" . }}
 
+  <aside class="fixed pt6 top-0">
+    {{ partial "table-of-contents" . }}
+  </aside>
+</main>
 
 <div class="pagination tc tr-l db fixed-l bottom-2-l right-2-l mb3 mb0-l">
   {{ partial "back-to-top.html" . }}<br>

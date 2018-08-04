@@ -13,15 +13,9 @@
     </div>
   </div>
 
-  <div class="center flex mw9">
-
-    <!--Intro-->
-    <div class="mr-auto mw4 pt4 v-top">
-      {{ partial "intro-pic.html" . }}
-    </div>
-
+  <div class="center flex mw8">
     <!-- Posts List -->
-    <div class="mw8">
+    <div class="mw6">
     {{ range (where .Site.Pages "Type" "post" ) }}
       {{ partial "summary.html" . }}
     {{ end }}

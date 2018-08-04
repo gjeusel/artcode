@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main>
+    <!--Intro-->
+    <div class="left-1 pl6 mt4 fixed f4 mw5">
+      {{ partial "intro-pic.html" . }}
+    </div>
+<div class="flex pt4 center mw7">
+
+    <div class="tl mw7">
+      {{ .Content }}
+    </div>
+
+</div>
+
+</main>
+{{end}}

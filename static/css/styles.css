@@ -1,7 +1,7 @@
 /*https://coolors.co/afd5aa-f0f2ef-a69f98-3d3d3d-8c6057*/
 :root {
   --main-color: #211527;
-  --secondary-color: #AFD5AA;
+  --secondary-color: #8b1524;
   --logo-text-color: #fff;
   --body-text-color: #3d3d3d;
   --heading-text-color: #383838;
@@ -59,15 +59,31 @@ pre {
   color: var(--body-text-color);
 }
 
-/*TOC*/
+/*TOC from tocbot*/
+.toc-list {
+  list-style: none;
+}
+a.toc-link {
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+  line-height: 1.4;
+}
+.is-collapsible a.toc-link {
+  padding: 5px 0;
+}
+a.toc-link:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+#contents-list>.is-active-link::before {
+  background-color: var(--secondary-color);
+}
 #contents-list>.toc-list {
   max-width: 250px;
   overflow: hidden;
   position: fixed;
   right: 2rem;
-}
-#contents-list ol {
-  list-style: none;
 }
 
 /*Blockquote*/

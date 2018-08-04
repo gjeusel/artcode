@@ -66,5 +66,6 @@ menu:
           weight: 1
 
         - name: "About"
+          identifier: "about"
           url: "/about/"
           weight: 3
