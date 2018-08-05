@@ -1,22 +1,21 @@
-<nav class="flex list ph4 justify-between bb b--light-silver" id="navbar">
-  <!--flex flex-column items-center nl6 nr6 bg-gray8 relative center-v-l-->
-  <a class="grow dim f3 fa fa-home no-underline" href="{{ .Site.BaseURL }}">
+<nav class="flex mh4 justify-between" id="navbar">
+  <a class="grow dim f4 fa fa-home no-underline" href="{{ .Site.BaseURL }}">
     Home
   </a>
 
-  <p class="pl4 f3">|</p>
+  <p class="pl4 f4">|</p>
 
   {{ range .Site.Menus.main }}
-  <a class="dim ml4 f3 no-underline link" href="{{.URL}}" title="{{.Title}}">
+  <a class="dim ml4 f4 no-underline link" href="{{.URL}}" title="{{.Title}}">
     {{ .Name }}
   </a>
   {{ end }}
 
   <div class="ml-auto">
-    <ul class="dib f3 icons">
+    <ul class="dib 43 icons">
       {{ partial "social.html" . }}
     </ul>
-    <a class="dib grow pl4 pr2 f3 fa fa-search center no-underline" href="/tags"></a>
+    <a class="dib grow pl4 pr2 f4 fa fa-search no-underline" href="/search"></a>
   </div>
 
 </nav>
